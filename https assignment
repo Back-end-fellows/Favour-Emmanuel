@@ -1,0 +1,19 @@
+What is HTTPS?
+HTTPS is a secure way to send data between a web server and a web browser. It stands for Hypertext Transfer Protocol Secure. it is the secure version of HTTP, which is the primary method used to send data between a browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particulary important when users transmit sensitive data such as logging into a bank account, email service or health insurance provider. Any website, especially those thaat require login details, should make use of HTTPS. Web browsers such as Google Chrome take HTTPS seriously.
+
+HTTPS METHODS
+The GET Method: Get is used to request data from a specified resource. It is one of the most common method of HTTP methods. Note that the query string (name/value pairs) is sent in the URL of a Get request:
+/test/demo_form.php?
+name1=value1&name2=value2
+The Post Method: POST is used to send data to a server to create /update a resource. It is one of the most common methods of HTTP. The data sent to the server with POST is stored in the request body of the HTTP request:
+POST/test/demo_form.php
+HTTPS/1.1
+Favoured.com
+name1=value1&name2=value2
+The PUT Method:PUT is used to send data to a server to create/update a resource. The difference between POST and PUT are idempotent.
+The Head Method: HEAD is almost identical to GET, but without the response body
+The DELETE Method: The DELETE method deletes the specified resource.
+The PATCH Method: The PATCH method is used to apply partial modifications to a resource.
+The OPTIONS Method: The OPTIONS method is used to start a two-way communications (a tunnel) with the requested resource
+Te CONNECT Method: The CONNECT method is used to start a two-way communications (a tunnel) with the requested resource.
+The TRACE Method: The TRACE method is used to perform a message loop-back test that tests the path for the target resource (useful for debugging purposes).
